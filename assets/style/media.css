@@ -1,0 +1,38 @@
+@media (max-width: 1199.99px) {
+    .nav__list-link {
+        padding: 20px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 991.99px) {
+    .nav {
+        position: relative;
+        padding: 15px 0;
+    }
+
+    .btn-line {
+        display: flex;
+    }
+
+    .nav__list-link {
+        text-align: center;
+    }
+
+    .nav__list {
+        position: absolute;
+        flex-direction: column;
+        background-color: #322E41;
+        top: 100%;
+        right: -100%;
+        transition: .3s;
+    }
+
+    .menu:hover .nav__list{
+        right: 0;
+    }
+}
+
+@media (max-width: 767.99px) {}
+
+@media (max-width: 575.99px) {}
